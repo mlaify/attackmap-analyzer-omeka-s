@@ -12,7 +12,7 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Install `attack-map-analyzer-omeka-s` version `...`
+1. Install `attackmap-analyzer-omeka-s` version `...`
 2. Run `attackmap analyze ...`
 3. Observed: ...
 
