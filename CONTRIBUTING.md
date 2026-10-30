@@ -15,8 +15,8 @@ participating, you agree to uphold it. Report unacceptable behavior to
 This is a Python package. Development requires Python 3.11+.
 
 ```bash
-git clone https://github.com/mlaify/attack-map-analyzer-omeka-s.git
-cd attack-map-analyzer-omeka-s
+git clone https://github.com/mlaify/attackmap-analyzer-omeka-s.git
+cd attackmap-analyzer-omeka-s
 python -m venv .venv
 source .venv/bin/activate
 pip install -e ".[dev]"
@@ -41,13 +41,13 @@ pytest
 
 ### Reporting bugs
 
-Open a [bug report](https://github.com/mlaify/attack-map-analyzer-omeka-s/issues/new?template=bug_report.md).
+Open a [bug report](https://github.com/mlaify/attackmap-analyzer-omeka-s/issues/new?template=bug_report.md).
 Please include the AttackMap version, this plugin's version, Python version,
 OS, reproduction steps, and the smallest input that triggers the issue.
 
 ### Suggesting enhancements
 
-Open a [feature request](https://github.com/mlaify/attack-map-analyzer-omeka-s/issues/new?template=feature_request.md).
+Open a [feature request](https://github.com/mlaify/attackmap-analyzer-omeka-s/issues/new?template=feature_request.md).
 For new framework / library coverage, include sample upstream code patterns
 the analyzer should detect.
 

@@ -1,5 +1,5 @@
 """Omeka S ACL rules, API key auth, joined routes and a cheap detect()
-(attack-map-analyzer-omeka-s#2)."""
+(attackmap-analyzer-omeka-s#2)."""
 
 from __future__ import annotations
 
