@@ -55,10 +55,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mlaify/attack-map-analyzer-omeka-s"
-Repository = "https://github.com/mlaify/attack-map-analyzer-omeka-s"
-Issues = "https://github.com/mlaify/attack-map-analyzer-omeka-s/issues"
-Changelog = "https://github.com/mlaify/attack-map-analyzer-omeka-s/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/mlaify/attackmap-analyzer-omeka-s"
+Repository = "https://github.com/mlaify/attackmap-analyzer-omeka-s"
+Issues = "https://github.com/mlaify/attackmap-analyzer-omeka-s/issues"
+Changelog = "https://github.com/mlaify/attackmap-analyzer-omeka-s/blob/main/CHANGELOG.md"
 "AttackMap core" = "https://github.com/mlaify/AttackMap"
 
 [project.entry-points."attackmap.analyzers"]

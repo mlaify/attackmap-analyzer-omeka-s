@@ -1,4 +1,4 @@
-"""Omeka S ACL rules and per-route access decisions (attack-map-analyzer-omeka-s#2).
+"""Omeka S ACL rules and per-route access decisions (attackmap-analyzer-omeka-s#2).
 
 Omeka decides who reaches a controller with its ACL (`Omeka\\Permissions\\Acl`,
 a Laminas ACL). Controllers are ACL resources, the action is the privilege,
