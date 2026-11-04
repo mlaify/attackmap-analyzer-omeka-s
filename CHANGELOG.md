@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-31
+
+### Changed — packaging
+
+- Released to the mlaify package index (https://pkg.mlaify.io/pypi/simple/). A `v*` tag now builds the wheel and sdist and attaches them to a GitHub release (`.github/workflows/release.yml`); the index picks them up within six hours.
+- The `core` and `dev` extras require `attackmap>=0.6.0` from the index instead of AttackMap's git main.
+
 ### Added — Omeka S ACL, admin login and API key auth (#2, mlaify/AttackMap#261)
 
 - **Per-route access on `Route.auth` / `guards` / `guard_evidence`** (core contract AttackMap#256). `$acl->allow()` / `->deny()` rules in `Module.php` and `*AclFactory.php` are parsed (roles, resources resolved through `namespace`/`use`, privileges, assertions) and matched to each route's controller and action: an unconditional allow for `null`/`'guest'` makes it `anonymous`; an anonymous deny or Omeka's default deny makes it `required` (`omeka_acl:requires_role(<role>)` / `omeka_acl:default_deny`); conditional or unresolved rules leave it `unknown`. `__ADMIN__` routes are `required` (`omeka:admin_login`).

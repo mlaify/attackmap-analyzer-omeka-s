@@ -167,7 +167,7 @@ class OmekaSAnalyzer:
     metadata = AnalyzerMetadata(
         name="omeka-s",
         display_name="Omeka S Analyzer",
-        version="0.1.0",
+        version="0.2.0",
         description="Application-aware Omeka S analyzer for Laminas module config, services, and extension surfaces.",
         scope="Omeka S and Omeka-style Laminas MVC projects with module config-driven routes and services.",
         targets=["omeka-s", "php-laminas", "php-web"],
