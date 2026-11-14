@@ -54,8 +54,8 @@ Each route's `auth` is decided from Omeka's own checks:
 ## Install
 
 ```bash
-uv tool install attackmap --with attackmap-analyzer-omeka-s \
-  --index mlaify=https://pkg.mlaify.io/pypi/simple/ --index-strategy first-index
+uv tool install attackmap --with attackmap-analyzer-omeka-s    # from PyPI
+# or: pip install attackmap-analyzer-omeka-s    (installs attackmap too)
 # or from source:
 pip install git+https://github.com/mlaify/attackmap-analyzer-omeka-s.git
 ```
