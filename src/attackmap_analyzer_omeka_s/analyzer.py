@@ -168,7 +168,7 @@ class OmekaSAnalyzer:
     metadata = AnalyzerMetadata(
         name="omeka-s",
         display_name="Omeka S Analyzer",
-        version=plugin_version("attackmap-analyzer-omeka-s", default="0.2.1"),
+        version=plugin_version("attackmap-analyzer-omeka-s", default="0.3.0"),
         requires_core=">=0.8,<2",
         description="Application-aware Omeka S analyzer for Laminas module config, services, and extension surfaces.",
         scope="Omeka S and Omeka-style Laminas MVC projects with module config-driven routes and services.",
